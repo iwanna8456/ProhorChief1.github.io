@@ -1,1 +1,136 @@
 # ProhorChief1.github.io
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Правила</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #151518;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      color: #fff;
+      position: relative;
+    }
+    .author {
+      position: absolute;
+      top: -38px;
+      left: 36px;
+      font-weight: bold;
+      font-size: 2.3em;
+      color: #ff2222;
+      letter-spacing: 2px;
+      opacity: 1;
+      z-index: 10;
+      text-shadow: 
+        0 0 18px #ff2222, 
+        0 0 36px #ff2222,
+        0 0 60px #ff2222,
+        0 0 8px #ff2222;
+      user-select: none;
+      pointer-events: none;
+    }
+    .container {
+      max-width: 700px;
+      margin: 100px auto 60px auto;
+      padding: 32px 16px;
+      background: rgba(20,20,24,0.95);
+      border-radius: 24px;
+      box-shadow: 0 0 30px #0007;
+    }
+    .site-title {
+      margin-top: 0;
+      margin-bottom: 32px;
+      text-align: center;
+      font-size: 2.4em;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: #fff;
+      text-shadow: 0 0 12px #fff, 0 0 36px #fff;
+    }
+    .rules-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+    .rule-item {
+      padding: 24px 24px;
+      font-size: 1.15em;
+      border-radius: 14px;
+      background: rgba(22,22,26,0.93);
+      box-shadow:
+        0 0 7px 1.5px #fff,
+        0 0 14px 3px #fff7,
+        0 0 1px #fff,
+        0 0 1px #fff;
+      border: 2px solid #fff;
+      outline: none;
+      color: #fff;
+      transition: box-shadow 0.22s;
+      text-shadow: 0 0 5px #fff, 0 0 8px #fff;
+    }
+    .rules-copy-block {
+      margin-top: 60px;
+      margin-bottom: 40px;
+      padding-bottom: 30px;
+      border-top: 2px solid #fff2;
+    }
+    @media (max-width: 600px) {
+      .container { margin-top: 80px; padding: 10px 2vw; }
+      .site-title { font-size: 1.4em; }
+      .rule-item { font-size: 1em; padding: 14px 8px; }
+      .author { font-size: 1.25em; left: 10px; top: -28px; }
+      .rules-copy-block { margin-top: 34px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="author">ProhorChief</div>
+  <div class="container">
+    <h1 class="site-title">Ознакомьтесь с правилами 2.0
+    Запрещено:</h1>
+    <ul class="rules-list">
+      <li class="rule-item">1. прямые или косвенные оскорбления участников.</li>
+      <li class="rule-item">2. Слишком много ненормальной лексики.</li>
+      <li class="rule-item">3. Реклама чего-то, даже просто пересылки.</li>
+      <li class="rule-item">4. Не публикуйте личную информацию других лиц.</li>
+      <li class="rule-item">5. Следуйте указаниям администрации.</li>
+      <li class="rule-item">6. разжигайте конфликты и вражду.</li>
+      <li class="rule-item">7. Не злоупотребляйте капсом.</li>
+      <li class="rule-item">8. Неадекватная критика.</li>
+      <li class="rule-item">9. Не распространение вредоносного ПО.</li>
+      <li class="rule-item">10. Оскорбление чужого труда.</li>
+      <li class="rule-item">11. Спам и флуд.</li>
+      <li class="rule-item">12. 18+ контент.</li>
+      <li class="rule-item">13. Угроза сноса/рейда и т.д.</li>
+      <li class="rule-item">14. Писать от имени канала.</li>
+      <li class="rule-item">15. Неадекватное поведение.</li>
+    </ul>
+    <div class="rules-copy-block">
+      <h1 class="site-title">Раздел для стажёров и модеров</h1>
+      <ul class="rules-list">
+        <li class="rule-item">1. Warn 30d.</li>
+        <li class="rule-item">2. Ban.</li>
+        <li class="rule-item">3. Ban, можно только с разрешением.</li>
+        <li class="rule-item">4. Ban.</li>
+        <li class="rule-item">5. Либо мут, либо варн, либо бан.</li>
+        <li class="rule-item">6. Warn/ban.</li>
+        <li class="rule-item">7. Mute 30m.</li>
+        <li class="rule-item">8. Ban.</li>
+        <li class="rule-item">9. Ban.</li>
+        <li class="rule-item">10. Warn.</li>
+        <li class="rule-item">11. Mute 30d.</li>
+        <li class="rule-item">12. Ban.</li>
+        <li class="rule-item">13. Ban.</li>
+        <li class="rule-item">14. Warn 30d.</li>
+        <li class="rule-item">15. Ban.</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
